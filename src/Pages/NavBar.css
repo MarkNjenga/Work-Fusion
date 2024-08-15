@@ -6,9 +6,9 @@
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
     width: 100%;
-    max-width: 97%; /* Limit maximum width */
+    max-width: 100%; /* Limit maximum width */
     margin: 2 auto; /* Center align Navbar */
-    position:; /* Fixed position at the top */
+    position:sticky; /* Fixed position at the top */
     top: 0;
     left: 0;
     z-index: 1000; /* Ensure it’s on top of other content */

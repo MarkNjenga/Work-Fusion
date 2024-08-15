@@ -7,6 +7,7 @@ import Control from './Pages/Control';
 import NavBar from './Pages/NavBar'; // Import NavBar component
 import { ToastContainer } from 'react-toastify'; // Import ToastContainer
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
