@@ -1,14 +1,136 @@
-.about-container {
-    padding: 20px;
-    background-color: #e9ecef;
-    min-height: 100vh;
+/* Jumbotron Styles */
+/* Jumbotron Styles */
+/* Jumbotron Styles */
+.jumbotron {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: 1fr 2fr; /* Two columns: 1 for the h1, 2 for the content */
+  padding: 4rem 2rem 3rem 2rem; /* Add 4rem top padding, and keep existing padding for other sides */
+  margin: 0 auto 3rem auto; /* Center the jumbotron and add margin to the bottom */
+  max-width: 90%; /* Increased max-width to make it wider */
+  background-color: rgba(128, 128, 128, 0.2); /* Slightly more opaque grey background */
+  border-radius: 0.75rem; /* Larger rounded corners */
+  text-align: center; /* Center text alignment */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+}
+
+
+.jumbotron .display-4 {
+  grid-column: 1; /* Place the h1 in the first column */
+  align-self: start; /* Align the h1 to the top */
+}
+
+.jumbotron .content {
+  grid-column: 2; /* Place the content in the second column */
+  text-align: center; /* Center align the rest of the content */
+}
+
+.display-4 {
+  font-size: 3rem; /* Larger font size for heading */
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.lead {
+  font-size: 1.5rem; /* Larger font size for lead paragraph */
+  font-weight: 300;
+}
+
+.btn {
+  padding: 1rem 1.5rem; /* Larger padding for the button */
+  font-size: 1.5rem; /* Larger font size for the button */
+  border-radius: 0.5rem; /* Larger rounded corners for the button */
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.my-4 {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 2rem 0; /* Increased margin for the horizontal rule */
+}
+
+.card {
+  transition: transform 0.6s; /* Smooth transition */
+  transform-style: preserve-3d; /* Necessary for 3D transformations */
+  height: 350px; /* Fixed height for the card */
+}
+
+.card.rotate {
+  transform: rotateY(360deg); /* Rotate 360 degrees on Y-axis */
+}
+
+.card-body {
+  height: 100%; /* Make sure the card body takes up full height */
+  display: flex; /* Flexbox to center the text */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+}
+
+.card-text {
+  text-align: center; /* Center text horizontally */
+  margin: 0; /* Remove default margin */
+  padding: 10px; /* Add padding for spacing */
+}
+/* Ensure horizontal layout and equal spacing of icons */
+
+/* Add styles for the horizontal divider */
+.divider {
+  border: 0;
+  height: 1px;
+  background: #0f0000; /* Adjust color as needed */
+  margin: 2rem 0; /* Space above and below the line */
+}
+/* about.css */
+
+/* Style for the client logos */
+.client-logo {
+  max-width: 100%;
+  max-height: 100%; /* Set a maximum height */
+  margin: 0 auto;
+  display: block;
+  width: 150ox;
+  height: 150px;
+}
+
+/* Adjust the spacing and alignment of the logo list */
+#icons-list {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon-container {
+  width: 150px; /* Adjust this width as needed */
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover effect for logos */
+.client-logo:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .client-logo {
+    max-height: 80px;
   }
-  
-  .about-container h1 {
-    color: #333;
+  .icon-container {
+    width: 120px;
   }
-  
-  .about-container p {
-    color: #555;
+}
+
+@media (max-width: 576px) {
+  .client-logo {
+    max-height: 60px;
   }
-  
+  .icon-container {
+    width: 100px;
+  }
+}
