@@ -1,0 +1,101 @@
+/* .form-popup { */ */
+  /* display: block; */
+  /* position: fixed; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* background-color: #f9f9f9; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  /* padding: 20px; */
+  /* z-index: 10000; Ensure the form is on top of other content
+  width: 90%;
+  max-width: 400px;
+}
+
+.form-popup-content {
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="time"]:focus {
+  border-color: #3f51b5;
+  outline: none;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #303f9f;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  .form-popup {
+      width: 95%;
+      padding: 15px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  .submit-button {
+      font-size: 14px;
+  }
+}
