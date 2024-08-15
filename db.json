@@ -1,0 +1,302 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Peter Griffin",
+      "PF_Number": "PF987654321",
+      "Designation": "Employee",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St, Anytown, USA",
+      "picture": "./src/images and icons/Peter.png"
+    },
+    {
+      "id": "2",
+      "name": "Rose Weller",
+      "PF_Number": "PR963654321",
+      "Designation": "Employee",
+      "email": "roseweller@.com",
+      "phone": "243-456-7890",
+      "address": "123 Main St, MaryLand, USA",
+      "picture": "./src/images and icons/Rose.png"
+    },
+    {
+      "id": "3",
+      "name": "Jane Mathews",
+      "PF_Number": "QR963654389",
+      "Designation": "Employee",
+      "email": "jane23@gmail.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St, Anytown, USA",
+      "picture": "./src/images and icons/Terry.png"
+    },
+    {
+      "id": "4",
+      "name": "John Huddings",
+      "PF_Number": "ZF963654389",
+      "Designation": "Employee",
+      "email": "johnhunnings@gmail.com",
+      "phone": "267-456-7890",
+      "address": "123 Main St, Anytown, USA",
+      "picture": "./src/images and icons/Sebastian.png"
+    },
+    {
+      "id": "5",
+      "name": "Lee Chan",
+      "PF_Number": "YR963654328",
+      "Designation": "C.E.O",
+      "email": "leechan@gmail.com",
+      "phone": "489-456-7890",
+      "address": "123 julio St, Chicago, USA",
+      "picture": "./src/images and icons/Lee.png"
+    },
+    {
+      "id": "6",
+      "name": "Winter Channy",
+      "PF_Number": "TR963654325",
+      "Designation": "Employee",
+      "email": "winterchanny@gmail.com",
+      "phone": "096-456-7890",
+      "address": "123 surb St, Texas, USA",
+      "picture": "./src/images and icons/Charlote.png"
+    },
+    {
+      "id": "7",
+      "name": "David Wennings",
+      "PF_Number": "OR969754321",
+      "Designation": "Employee",
+      "email": "davidwennings@gmail.com",
+      "phone": "345-456-7890",
+      "address": "123 Satwan St, Illinois, USA",
+      "picture": "./src/images and icons/David.png"
+    },
+    {
+      "id": "8",
+      "name": "Joan Chandler",
+      "PF_Number": "XR963654647",
+      "Designation": "Employee",
+      "email": "joanchandler@gmail.com",
+      "phone": "900-456-7890",
+      "address": "45th St, NY, USA",
+      "picture": "./src/images and icons/Joan.png"
+    },
+    {
+      "id": "9",
+      "name": "Queen Lutton",
+      "PF_Number": "TB863654325",
+      "Designation": "Employee",
+      "email": "queenlutton@gmail.com",
+      "phone": "354-456-7890",
+      "address": "1stLuois St, Anytown, USA",
+      "picture": "./src/images and icons/Queen.png"
+    },
+    {
+      "id": "10",
+      "name": "Sean Martin",
+      "PF_Number": "KL9636543206",
+      "Designation": "Employee",
+      "email": "seanmartin@gmail.com",
+      "phone": "533-456-7890",
+      "address": "Wells St, Anytown, USA",
+      "picture": "./src/images and icons/Elvis.png"
+    },
+    {
+      "id": "11",
+      "name": "Shantel Lily",
+      "PF_Number": "FE96365452",
+      "Designation": "H.R manager",
+      "email": "shantellily@gmail.com",
+      "phone": "573-456-7890",
+      "address": "Brington St, Anytown, USA",
+      "picture": "./src/images and icons/Tincie.png"
+    },
+    {
+      "id": "12",
+      "name": "Wendy Davis",
+      "PF_Number": "BC96365478",
+      "Designation": "Employee",
+      "email": "wendydavis@gmail.com",
+      "phone": "456-789-0123",
+      "address": "Anytown, USA",
+      "picture": "./src/images and icons/Jane.png"
+    },
+    {
+      "id": "13",
+      "name": "Joe Martin",
+      "PF_Number": "PV96365428",
+      "Designation": "Employee",
+      "email": "joemartin@gmail.com",
+      "phone": "456-789-0123",
+      "address": "Memphis, USA",
+      "picture": "./src/images and icons/Seth.png"
+    },
+    {
+      "id": "14",
+      "name": "Zoey Martin",
+      "PF_Number": "MX963654309",
+      "Designation": "Employee",
+      "email": "zoeymartin@gmail.com",
+      "phone": "456-789-0123",
+      "address": "Atlanta, USA",
+      "picture": "./src/images and icons/Esther.png"
+    },
+    {
+      "id": "15",
+      "name": "Ian Martin",
+      "PF_Number": "NA96365489",
+      "Designation": "Employee",
+      "email": "sethmartin@gmail.com",
+      "phone": "456-789-0123",
+      "address": "Georgia, USA",
+      "picture": "./src/images and icons/Ian.png"
+    },
+    {
+      "id": "16",
+      "name": "Daisy Washington",
+      "PF_Number": "GL963655631",
+      "Designation": "Employee",
+      "email": "daisywashington@gmail.com",
+      "phone": "356-789-0123",
+      "address": "Georgia, USA",
+      "picture": "./src/images and icons/Daisy.png"
+    },
+    {
+      "id": "17",
+      "name": "Malcom Warner",
+      "PF_Number": "UZ763654321",
+      "Designation": "Employee",
+      "email": "malcomwarner@gmail.com",
+      "phone": "765-789-0123",
+      "address": "DC, USA",
+      "picture": "./src/images and icons/Sean.png"
+    },
+    {
+      "id": "18",
+      "name": "Ginny Olives",
+      "PF_Number": "QY963654596",
+      "Designation": "Manager",
+      "email": "ginnyolives@gmail.com",
+      "phone": "855-789-0123",
+      "address": "Delware, USA",
+      "picture": "./src/images and icons/Ginny.png"
+    },
+    {
+      "id": "19",
+      "name": "Sahara Slot",
+      "PF_Number": "KT263654858",
+      "Designation": "Manager",
+      "email": "derekwarner@gmail.com",
+      "phone": "895-789-0123",
+      "address": "NewHamshire, USA",
+      "picture": "./src/images and icons/Sahara.png"
+    },
+    {
+      "id": "20",
+      "name": "Talia Meghan",
+      "PF_Number": "JS763654390",
+      "Designation": "Employee",
+      "email": "taliameghan@gmail.com",
+      "phone": "765-789-0123",
+      "address": "NewYork, USA",
+      "picture": "./src/images and icons/Talia.png"
+    },
+    {
+      "id": "21",
+      "name": "Tisha Tonny",
+      "PF_Number": "RZ76365475",
+      "Designation": "Director",
+      "email": "tishatonny@gmail.com",
+      "phone": "755-789-0123",
+      "address": "Delware, USA",
+      "picture": "./src/images and icons/Tisha.png"
+    },
+    {
+      "id": "22",
+      "name": "Lucy Welbeck",
+      "PF_Number": "BV463654906",
+      "Designation": "Manager",
+      "email": "lucywelbeck@gmail.com",
+      "phone": "895-789-0123",
+      "address": "NewJersey, USA",
+      "picture": "./src/images and icons/Lucy.png"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "1",
+      "employeeId": 1,
+      "signIn": "2024-08-13T08:00:00Z",
+      "signOut": "2024-08-13T17:00:00Z"
+    },
+    {
+      "id": "a72f",
+      "employeeId": "1445",
+      "timeOut": "2024-08-13T16:15"
+    },
+    {
+      "id": "fed5",
+      "employeeId": "1445",
+      "timeIn": "2024-08-13T16:15"
+    },
+    {
+      "id": "f375",
+      "employeeId": "1445",
+      "timeOut": "2024-08-13T16:25"
+    },
+    {
+      "id": "b5f9",
+      "employeeId": "1445",
+      "timeIn": "2024-08-13T16:19"
+    },
+    {
+      "id": "9d9d",
+      "employeeId": "10411",
+      "timeIn": "2024-08-13T16:22"
+    },
+    {
+      "id": "9157",
+      "employeeId": "10436",
+      "timeIn": "2024-08-27T05:27"
+    },
+    {
+      "id": "4ab5",
+      "employeeId": "1445",
+      "timeOut": "2024-08-16T19:30"
+    },
+    {
+      "id": "fcb0",
+      "employeeId": "1234",
+      "timeIn": "2024-08-13T22:33"
+    },
+    {
+      "id": "6ae9",
+      "employeeId": "10436",
+      "timeIn": "2024-08-15T16:39"
+    },
+    {
+      "id": "7293",
+      "employeeId": "1445",
+      "timeOut": "2024-08-13T19:42"
+    },
+    {
+      "id": "25b6",
+      "employeeId": "1445",
+      "timeIn": "2024-08-13T18:34"
+    },
+    {
+      "id": "4ec6",
+      "employeeId": "1254",
+      "timeOut": "2024-08-13T21:32"
+    },
+    {
+      "id": "68e9",
+      "employeeId": "1254",
+      "timeOut": "2024-08-13T21:39"
+    },
+    {
+      "id": "9d69",
+      "employeeId": "1254",
+      "timeOut": "2024-08-13T21:48"
+    }
+  ]
+}

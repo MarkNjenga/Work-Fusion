@@ -1,0 +1,14 @@
+.about-container {
+    padding: 20px;
+    background-color: #e9ecef;
+    min-height: 100vh;
+  }
+  
+  .about-container h1 {
+    color: #333;
+  }
+  
+  .about-container p {
+    color: #555;
+  }
+  

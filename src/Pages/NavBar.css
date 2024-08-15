@@ -1,0 +1,77 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    width: 100%;
+    max-width: 97%; /* Limit maximum width */
+    margin: 2 auto; /* Center align Navbar */
+    position:; /* Fixed position at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it’s on top of other content */
+    overflow: hidden;
+  }
+  
+  .navbar__logo {
+    color: #ffffff; /* White text for contrast */
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .navbar__list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__item {
+    margin: 0 15px;
+  }
+  
+  .navbar__link {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .navbar__icon {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 1.2rem; /* Icon size */
+  }
+  
+  .navbar__link:hover {
+    color: skyblue; /* Highlight color on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  /* NavBar.css */
+.navbar__link {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .navbar__link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .navbar__link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  

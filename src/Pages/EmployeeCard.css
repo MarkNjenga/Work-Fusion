@@ -1,0 +1,78 @@
+ .employee-card {
+  background-color: #1e1e2f;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  width: 365px; /* Increased from 320px by 5% */
+  margin: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.employee-card:hover {
+  transform: translateY(-5px) scale(1.05); /* Increased scale by 5% */
+}
+
+.employee-card__avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #2e2e3f;
+}
+
+.employee-card__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid skyblue;
+  object-fit: cover;
+}
+
+.employee-card__info {
+  padding: 15px;
+}
+
+.employee-card__name {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+.employee-card__role {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #cccccc;
+}
+
+.employee-card__details {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #dddddd;
+  text-align: left;
+}
+
+.employee-card__details a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.employee-card__details a:hover {
+  text-decoration: underline;
+}
+
+.employee-card__add-btn {
+  background-color: #4a90e2;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.employee-card__add-btn:hover {
+  background-color: #357ab8;
+} 
