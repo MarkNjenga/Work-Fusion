@@ -16,7 +16,7 @@ const LoginRegister = ({ onLoginSuccess }) => {
 
     if (formType === 'register') {
       try {
-        const response = await fetch('http://localhost:3000/Register', {
+        const response = await fetch('http://localhost:3001/Register', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formValues),
@@ -33,8 +33,8 @@ const LoginRegister = ({ onLoginSuccess }) => {
         toast.error('An error occurred.');
       }
     } else {
-      try {
-        const response = await fetch('http://localhost:3000/Register');
+      try { 
+        const response = await fetch('http://localhost:3001/Register');
         const users = await response.json();
         const user = users.find(
           (u) => u.name === formValues.name && u.password === formValues.password
