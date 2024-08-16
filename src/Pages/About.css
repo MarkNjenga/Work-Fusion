@@ -1,3 +1,11 @@
+/* Global Styles */
+body {
+  background-color: #17153B !important; /* Force apply background color */
+  color: #fff !important; /* Set text color to white */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 /* Jumbotron Styles */
 .jumbotron {
   display: grid; /* Use CSS Grid for layout */
@@ -5,21 +13,18 @@
   padding: 4rem 2rem 3rem 2rem; /* Add 4rem top padding, and keep existing padding for other sides */
   margin: 0 auto 3rem auto; /* Center the jumbotron and add margin to the bottom */
   max-width: 90%; /* Increased max-width to make it wider */
-  background-color: rgba(128, 128, 128, 0.2); /* Slightly more opaque grey background */
+  background-color: #2E236C; /* Updated background color */
   border-radius: 0.75rem; /* Larger rounded corners */
   text-align: center; /* Center text alignment */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
   gap: 2rem; /* Space between columns */
+  color: #fff;
 }
 
-.jumbotron .display-4 {
-  grid-column: 1; /* Place the h1 in the first column */
-  align-self: start; /* Align the h1 to the top */
-}
-
+/* Ensure all text within jumbotron is white */
+.jumbotron .display-4,
 .jumbotron .content {
-  grid-column: 2; /* Place the content in the second column */
-  text-align: center; /* Center align the rest of the content */
+  color: #fff;
 }
 
 .display-4 {
@@ -45,7 +50,7 @@
 }
 
 .btn-primary {
-  color: #fff;
+  color: #fff; /* Ensure button text is white */
   background-color: #007bff;
   border-color: #007bff;
 }
@@ -68,6 +73,7 @@
   border: 1px solid #ddd; /* Light border for cards */
   border-radius: 0.5rem; /* Rounded corners */
   overflow: hidden; /* Hide overflow content */
+  color: #000000;
 }
 
 .card.rotate {
@@ -80,12 +86,14 @@
   align-items: center; /* Center text vertically */
   justify-content: center; /* Center text horizontally */
   padding: 1rem; /* Add padding inside the card */
+  color: #fff; /* Ensure text in card is white */
 }
 
 .card-text {
   text-align: center; /* Center text horizontally */
   margin: 0; /* Remove default margin */
   padding: 10px; /* Add padding for spacing */
+  color: #000000; /* Ensure text in card is white */
 }
 
 .divider {

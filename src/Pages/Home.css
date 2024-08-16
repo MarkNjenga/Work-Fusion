@@ -1,12 +1,12 @@
 /* Home.css */
 .home-container {
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #17153B; /* Updated background color */
   min-height: 100vh;
 }
 
 .home-container h1 {
-  color: #333;
+  color: #fff; /* Changed text color for better contrast */
   text-align: center; /* Center the heading */
   margin-bottom: 20px;
 }

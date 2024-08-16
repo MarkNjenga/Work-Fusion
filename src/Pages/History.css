@@ -1,54 +1,61 @@
 .history-container {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .history-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-  }
-  
-  .history-table th,
-  .history-table td {
-    padding: 12px 15px;
-    text-align: left;
-  }
-  
-  .history-table th {
-    background-color: #4CAF50;
-    color: white;
-    font-weight: bold;
-    border-bottom: 2px solid #dddddd;
-  }
-  
-  .history-table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .history-table tbody tr:nth-child(odd) {
-    background-color: #ffffff;
-  }
-  
-  .history-table tbody tr:hover {
-    background-color: #ddd;
-    cursor: pointer;
-  }
-  
-  .history-table tbody td {
-    border-bottom: 1px solid #dddddd;
-  }
-  
-  .history-table tbody tr:last-child td {
-    border-bottom: none;
-  }
-  
-  .history-table tbody tr.no-records td {
-    text-align: center;
-    color: #888888;
-    font-style: italic;
-  }
-  
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #2E236C; /* Updated background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.history-table th,
+.history-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.history-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #dddddd;
+}
+
+.history-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.history-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.history-table tbody tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.history-table tbody td {
+  border-bottom: 1px solid #dddddd;
+}
+
+.history-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.history-table tbody tr.no-records td {
+  text-align: center;
+  color: #888888;
+  font-style: italic;
+}
+.history-container {
+  color: #000000; /* Text color for better contrast with the dark background */
+}
+
+/* Example: Adjust text color for headers or any other elements */
+.history-container h2, .history-container p {
+  color: #ffffff;
+}
