@@ -298,5 +298,21 @@
       "employeeId": "1254",
       "timeOut": "2024-08-13T21:48"
     }
+  ],
+  "Register": [
+    {
+      "Name": "Mark Njenga",
+      "Password": "codewarriors24."
+    },
+    {
+      "id": "45e6",
+      "name": "Mark Njenga",
+      "password": "codewarriors24."
+    },
+    {
+      "id": "02f6",
+      "name": "Mark Njenga",
+      "password": "codewarriors24."
+    }
   ]
 }

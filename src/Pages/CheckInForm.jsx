@@ -63,7 +63,7 @@ const CheckInForm = ({ onClose, onSubmit }) => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="timeOut">Time Out</label>
+            <label htmlFor="timeOut">Time In</label>
             <input
               type="time"
               id="timeOut"

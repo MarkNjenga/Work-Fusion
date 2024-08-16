@@ -52,7 +52,7 @@ const CheckOutForm = ({ onClose, onSubmit }) => {
     <div className="form-popup">
       <div className="form-popup-content">
         <span className="close-btn" onClick={onClose}>&times;</span>
-        <h2>Check In</h2>
+        <h2>Check Out</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="employeeId">Employee ID</label>

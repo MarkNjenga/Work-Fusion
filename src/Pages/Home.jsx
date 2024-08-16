@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import EmployeeDetails from './EmployeeDetails';
 import CheckInForm from './CheckInForm';
 import CheckOutForm from './CheckOutForm';
+import History from './History';
 import './Home.css';
 
 const Home = () => {
@@ -18,23 +19,23 @@ const Home = () => {
 
   const openCheckInForm = () => {
     setShowCheckIn(true);
-    setShowCheckOut(false); // Ensure Check-Out form is hidden when Check-In form is open
+    setShowCheckOut(false);
   };
 
   const openCheckOutForm = () => {
     setShowCheckOut(true);
-    setShowCheckIn(false); // Ensure Check-In form is hidden when Check-Out form is open
+    setShowCheckIn(false);
   };
 
   const closeCheckInForm = () => setShowCheckIn(false);
   const closeCheckOutForm = () => setShowCheckOut(false);
 
   const handleCheckInSubmit = () => {
-    closeCheckInForm(); // Close the form after submission
+    closeCheckInForm();
   };
 
   const handleCheckOutSubmit = () => {
-    closeCheckOutForm(); // Close the form after submission
+    closeCheckOutForm();
   };
 
   return (
@@ -61,9 +62,9 @@ const Home = () => {
           onSubmit={handleCheckOutSubmit}
         />
       )}
+      <History />
     </div>
   );
 };
 
 export default Home;
-
