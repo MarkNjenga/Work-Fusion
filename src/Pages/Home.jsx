@@ -11,7 +11,7 @@ const Home = () => {
   const [showCheckOut, setShowCheckOut] = useState(false);
 
   useEffect(() => {
-    fetch('https://json-server-vercel-ashy-nine.vercel.app/users')
+    fetch('http://localhost:3000/users')
       .then(response => response.json())
       .then(data => setUsers(data))
       .catch(error => console.error('Error fetching user data:', error));

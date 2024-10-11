@@ -11,28 +11,36 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import LoginRegister from './Pages/LoginRegister';
 
 function App() {
-  const [showLoginRegister, setShowLoginRegister] = useState(true); // State to manage LoginRegister visibility
+  const [isLoggedIn, setIsLoggedIn] = useState(false); // State to track login status
 
   useEffect(() => {
-    // Show the LoginRegister form when the browser loads
-    if (showLoginRegister) {
-      setShowLoginRegister(true);
+    // Check if user is already logged in (e.g., via localStorage or a token)
+    const token = localStorage.getItem('authToken'); // Example of token check
+    if (token) {
+      setIsLoggedIn(true); // User is logged in
+    } else {
+      setIsLoggedIn(false); // User is not logged in, show login form
     }
-  }, [showLoginRegister]);
+  }, []);
 
-  const handleLoginSuccess = () => {
-    setShowLoginRegister(false); // Close the LoginRegister form on successful login
+  const handleLoginSuccess = (token) => {
+    localStorage.setItem('authToken', token); // Store the token in localStorage
+    setIsLoggedIn(true); // Set login state to true after successful login
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem('authToken'); // Remove the token from localStorage on logout
+    setIsLoggedIn(false); // Set login state to false
   };
 
   return (
     <Router>
       <div className="App">
-        {showLoginRegister && (
-          <LoginRegister onLoginSuccess={handleLoginSuccess} />
-        )}
-        {!showLoginRegister && (
+        {!isLoggedIn ? (
+          <LoginRegister onLoginSuccess={handleLoginSuccess} /> // Show login form if not logged in
+        ) : (
           <>
-            <NavBar /> {/* Include the NavBar component */}
+            <NavBar onLogout={handleLogout} /> {/* Include NavBar with logout functionality */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
@@ -40,8 +48,8 @@ function App() {
               <Route path="/control" element={<AdminPage />} />
             </Routes>
           </>
-         )} 
-        <ToastContainer /> 
+        )}
+        <ToastContainer /> {/* For notifications */}
       </div>
     </Router>
   );

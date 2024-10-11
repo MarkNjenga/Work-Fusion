@@ -31,7 +31,7 @@ function AttendanceRecord({ employees }) {
     console.log('Posting Attendance Record:', attendance);
   
     // Assume your backend expects a POST request with the attendance data
-    fetch('https://json-server-vercel-ashy-nine.vercel.app/attendance', {
+    fetch('http://localhost:3000/attendance', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

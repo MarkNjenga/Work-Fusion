@@ -7,7 +7,7 @@
     flex-direction: column;
     height: 100vh; /* Ensure the container takes the full viewport height */
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #433D8B;
     text-align: center;
     width: 1905px;
   }
@@ -16,7 +16,7 @@
     width: 100%;
     max-width: 800px; /* Adjust to control form width */
     padding: 20px;
-    background-color: #fff;
+    background-color: #433D8B;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -41,7 +41,7 @@
   .form-input, .form-textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #433D8B;
     border-radius: 4px;
     box-sizing: border-box;
   }

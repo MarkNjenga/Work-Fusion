@@ -16,7 +16,7 @@ const LoginRegister = ({ onLoginSuccess }) => {
 
     if (formType === 'register') {
       try {
-        const response = await fetch('http://localhost:3001/Register', {
+        const response = await fetch('hhttp://localhost:3000/Register', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formValues),
@@ -34,7 +34,7 @@ const LoginRegister = ({ onLoginSuccess }) => {
       }
     } else {
       try { 
-        const response = await fetch('http://localhost:3001/Register');
+        const response = await fetch('http://localhost:3000/Register');
         const users = await response.json();
         const user = users.find(
           (u) => u.name === formValues.name && u.password === formValues.password

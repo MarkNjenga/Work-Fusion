@@ -229,80 +229,180 @@
       "signOut": "2024-08-13T17:00:00Z"
     },
     {
-      "id": "a72f",
+      "id": "678f",
       "employeeId": "1445",
-      "timeOut": "2024-08-13T16:15"
+      "timeOut": "14:59"
     },
     {
-      "id": "fed5",
-      "employeeId": "1445",
-      "timeIn": "2024-08-13T16:15"
-    },
-    {
-      "id": "f375",
-      "employeeId": "1445",
-      "timeOut": "2024-08-13T16:25"
-    },
-    {
-      "id": "b5f9",
-      "employeeId": "1445",
-      "timeIn": "2024-08-13T16:19"
-    },
-    {
-      "id": "9d9d",
+      "id": "4abc",
       "employeeId": "10411",
-      "timeIn": "2024-08-13T16:22"
+      "timeOut": "01:59"
     },
     {
-      "id": "9157",
-      "employeeId": "10436",
-      "timeIn": "2024-08-27T05:27"
-    },
-    {
-      "id": "4ab5",
+      "id": "db0b",
       "employeeId": "1445",
-      "timeOut": "2024-08-16T19:30"
+      "timeOut": "10:00"
     },
     {
-      "id": "fcb0",
-      "employeeId": "1234",
-      "timeIn": "2024-08-13T22:33"
+      "id": "0877",
+      "1728671643603": "present"
     },
     {
-      "id": "6ae9",
-      "employeeId": "10436",
-      "timeIn": "2024-08-15T16:39"
+      "id": "56fc",
+      "1728671643603": "present"
     },
     {
-      "id": "7293",
-      "employeeId": "1445",
-      "timeOut": "2024-08-13T19:42"
+      "id": "54db",
+      "1728671643603": "present"
     },
     {
-      "id": "25b6",
-      "employeeId": "1445",
-      "timeIn": "2024-08-13T18:34"
+      "id": "c826",
+      "1728671643603": "present"
     },
     {
-      "id": "4ec6",
-      "employeeId": "1254",
-      "timeOut": "2024-08-13T21:32"
+      "id": "f468",
+      "1728671643603": "present"
     },
     {
-      "id": "68e9",
-      "employeeId": "1254",
-      "timeOut": "2024-08-13T21:39"
+      "id": "5873",
+      "1728671643603": "present"
     },
     {
-      "id": "9d69",
-      "employeeId": "1254",
-      "timeOut": "2024-08-13T21:48"
+      "1": "absent",
+      "2": "absent",
+      "3": "absent",
+      "4": "absent",
+      "5": "absent",
+      "6": "absent",
+      "7": "absent",
+      "8": "absent",
+      "9": "absent",
+      "10": "absent",
+      "11": "absent",
+      "12": "present",
+      "13": "present",
+      "14": "present",
+      "15": "present",
+      "16": "present",
+      "17": "present",
+      "18": "present",
+      "19": "present",
+      "20": "present",
+      "21": "present",
+      "22": "absent",
+      "id": "0724"
+    },
+    {
+      "15": "absent",
+      "16": "present",
+      "17": "present",
+      "18": "present",
+      "19": "absent",
+      "20": "absent",
+      "21": "absent",
+      "22": "absent",
+      "id": "cd1f"
+    },
+    {
+      "15": "absent",
+      "16": "present",
+      "17": "present",
+      "18": "present",
+      "19": "absent",
+      "20": "absent",
+      "21": "absent",
+      "22": "absent",
+      "id": "3df9"
+    },
+    {
+      "15": "absent",
+      "16": "present",
+      "17": "present",
+      "18": "present",
+      "19": "absent",
+      "20": "absent",
+      "21": "absent",
+      "22": "absent",
+      "id": "a79e"
+    },
+    {
+      "16": "present",
+      "17": "present",
+      "18": "absent",
+      "19": "absent",
+      "20": "absent",
+      "21": "absent",
+      "22": "absent",
+      "id": "d93f",
+      "1728675141337": "present",
+      "1728675403246": "present"
+    },
+    {
+      "16": "present",
+      "17": "present",
+      "18": "absent",
+      "19": "absent",
+      "20": "absent",
+      "21": "absent",
+      "22": "absent",
+      "id": "df47",
+      "1728675141337": "present",
+      "1728675403246": "present"
+    },
+    {
+      "16": "present",
+      "17": "present",
+      "18": "absent",
+      "19": "absent",
+      "20": "absent",
+      "21": "absent",
+      "22": "absent",
+      "id": "bdca",
+      "1728675141337": "present",
+      "1728675403246": "present"
+    },
+    {
+      "16": "present",
+      "17": "present",
+      "18": "absent",
+      "19": "absent",
+      "20": "absent",
+      "21": "absent",
+      "22": "absent",
+      "id": "f2d5",
+      "1728675141337": "present",
+      "1728675403246": "present"
+    },
+    {
+      "16": "present",
+      "17": "present",
+      "18": "absent",
+      "19": "absent",
+      "20": "absent",
+      "21": "absent",
+      "22": "absent",
+      "id": "f59e",
+      "1728675141337": "present",
+      "1728675403246": "present"
+    },
+    {
+      "16": "present",
+      "17": "present",
+      "18": "absent",
+      "19": "present",
+      "20": "present",
+      "21": "absent",
+      "22": "present",
+      "id": "346e",
+      "1728675141337": "absent",
+      "1728675403246": "absent"
     }
   ],
   "Register": [
     {
       "Name": "Mark Njenga",
-      "Password": "codewarriors24."
+      "Password": "codewarriors24.",
+      "id": "844b"
     },
     {
       "id": "45e6",

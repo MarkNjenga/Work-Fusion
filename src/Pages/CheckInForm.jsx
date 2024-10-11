@@ -14,7 +14,7 @@ const CheckInForm = ({ onClose, onSubmit }) => {
       timeOut,
     };
 
-    fetch('https://json-server-vercel-ashy-nine.vercel.app/attendance', {
+    fetch('http://localhost:3000/attendance', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

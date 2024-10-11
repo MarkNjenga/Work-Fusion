@@ -5,7 +5,7 @@ const History = () => {
   const [attendanceRecords, setAttendanceRecords] = useState([]);
 
   useEffect(() => {
-    fetch('https://json-server-vercel-ashy-nine.vercel.app/attendance')
+    fetch('http://localhost:3000/attendance')
       .then(response => response.json())
       .then(data => setAttendanceRecords(data))
       .catch(error => console.error('Error fetching attendance records:', error));
